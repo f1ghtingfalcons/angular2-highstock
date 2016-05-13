@@ -12,6 +12,9 @@ module.exports = function(defaults) {
       'reflect-metadata/*.js',
       'rxjs/**/*.js',
       '@angular/**/*.js'
-    ]
+    ],
+    sassCompiler: {
+      includePaths: require("bourbon").includePaths
+    }
   });
 };

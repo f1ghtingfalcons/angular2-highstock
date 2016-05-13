@@ -1,0 +1,5 @@
+@import "bourbon";
+
+.my-class {
+    @include filter(grayscale(50%));
+}
