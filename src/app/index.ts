@@ -1,2 +1,2 @@
 export {environment} from './environment';
-export {Angular2HighstockAppComponent} from './angular2-highstock.component';
+export {AppComponent} from './app.component';
